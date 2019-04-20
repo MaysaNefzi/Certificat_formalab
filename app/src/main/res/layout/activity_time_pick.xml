@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".TimePick"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <TimePicker
+        android:id="@+id/tmpick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:headerBackground="@color/orange"
+        android:backgroundTint="@color/orange"
+        android:numbersSelectorColor="@color/orange"></TimePicker>
+
+    <LinearLayout
+        android:layout_width="220dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="40dp">
+        <Button
+            android:id="@+id/valid"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="ok"
+            android:textSize="20sp"
+            android:background="@color/orange"
+            android:textColor="@color/white"
+            android:layout_marginRight="20dp"/>
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:text="Cancel"
+            android:textSize="20sp"
+            android:background="@color/orange"
+            android:textColor="@color/white"/>
+
+    </LinearLayout>
+
+</LinearLayout>
